@@ -334,7 +334,6 @@ plt.ylabel("MFPT")
 plt.grid(True)
 
 plt.tight_layout()
-#plt.savefig("/home/claude/work/fig1_mfpt_vs_eps.png", dpi=120)
 plt.show()
 
 
@@ -373,7 +372,6 @@ for i in epsilons:
 
 plt.legend()
 plt.tight_layout()
-#plt.savefig("/home/claude/work/fig2_trajectory.png", dpi=120)
 plt.show()
 
 
@@ -388,7 +386,6 @@ plt.ylabel("MFPT")
 plt.grid(True, which="both")
 
 plt.tight_layout()
-#plt.savefig("/home/claude/work/fig3_mfpt_semilogy.png", dpi=120)
 plt.show()
 
 
@@ -409,7 +406,4 @@ plt.ylabel("log(tau)")
 plt.grid(True)
 
 plt.tight_layout()
-#plt.savefig("/home/claude/work/fig4_large_deviation.png", dpi=120)
 plt.show()
-
-print("Done. Figures saved to /home/claude/work/")
